@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "addition of two numbers"
+read x
+read y
+echo "$[x+y]"
