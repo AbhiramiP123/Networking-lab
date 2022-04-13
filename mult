@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Enter the first  numbers"
+read x
+echo "Enter the second numbers"
+read y
+function mult()
+{
+product=$(( $x * $y))
+}
+mult $X $y
+echo "the product of $x and $y is= $product"
+~                                          
